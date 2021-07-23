@@ -41,5 +41,5 @@ CREATE TABLE haveread (
 
 CREATE TABLE channelmessage (
   id BIGINT AUTO_INCREMENT NOT NULL PRIMARY KEY,
-  messagecount NOT NULL
+  messagecount BIGINT NOT NULL
 ) Engine=InnoDB DEFAULT CHARSET=utf8mb4;
